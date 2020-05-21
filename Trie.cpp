@@ -97,5 +97,7 @@ int main()
     cout<<t.isExist("and")<<endl;
     t.insertWord("and");
     cout<<t.isExist("and")<<endl;
+    t.removeWord("dot");
+    cout<<t.isExist("dot")<<endl;
     return 0;
 }
