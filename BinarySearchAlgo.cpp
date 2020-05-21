@@ -20,6 +20,7 @@ int indexOfElementItrative(int *a, int s, int t)
 }
 
 
+
 int indexOfElementRecursive(int *a, int s, int e, int t)
 {
     int m = (s+e)/2;
